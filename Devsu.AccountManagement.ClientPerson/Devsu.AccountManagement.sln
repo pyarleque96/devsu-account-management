@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Devsu.AccountManagement.Domain", "Devsu.AccountManagement.Domain\Devsu.AccountManagement.Domain.csproj", "{250B5CBA-5282-4B28-815D-42CD4FCD382C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Devsu.AccountManagement.Application", "Devsu.AccountManagement.Application\Devsu.AccountManagement.Application.csproj", "{51E05F47-71FA-43B9-9F11-E0F4C9008906}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Devsu.AccountManagement.Commom", "Devsu.AccountManagement.Commom\Devsu.AccountManagement.Commom.csproj", "{2C4B8329-0CE1-488F-960D-55F0A69064A2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Devsu.AccountManagement.Infrastructure", "Devsu.AccountManagement.Infrastructure\Devsu.AccountManagement.Infrastructure.csproj", "{0A9DFD3E-FEA8-415F-ABB1-1EE46D00563D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Devsu.AccountManagement.ClientPersonAPI", "Devsu.AccountManagement.ClientPersonServiceAPI\Devsu.AccountManagement.ClientPersonAPI.csproj", "{91F66DE6-F8E8-4A39-902A-960A458118D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Devsu.AccountManagement.Test", "Devsu.AccountManagement.Test\Devsu.AccountManagement.Test.csproj", "{5BCCF66A-22FD-499B-82B8-F51DB195FEE1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{250B5CBA-5282-4B28-815D-42CD4FCD382C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{250B5CBA-5282-4B28-815D-42CD4FCD382C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{250B5CBA-5282-4B28-815D-42CD4FCD382C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{250B5CBA-5282-4B28-815D-42CD4FCD382C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51E05F47-71FA-43B9-9F11-E0F4C9008906}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51E05F47-71FA-43B9-9F11-E0F4C9008906}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51E05F47-71FA-43B9-9F11-E0F4C9008906}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51E05F47-71FA-43B9-9F11-E0F4C9008906}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C4B8329-0CE1-488F-960D-55F0A69064A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C4B8329-0CE1-488F-960D-55F0A69064A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C4B8329-0CE1-488F-960D-55F0A69064A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C4B8329-0CE1-488F-960D-55F0A69064A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A9DFD3E-FEA8-415F-ABB1-1EE46D00563D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A9DFD3E-FEA8-415F-ABB1-1EE46D00563D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A9DFD3E-FEA8-415F-ABB1-1EE46D00563D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A9DFD3E-FEA8-415F-ABB1-1EE46D00563D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91F66DE6-F8E8-4A39-902A-960A458118D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91F66DE6-F8E8-4A39-902A-960A458118D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91F66DE6-F8E8-4A39-902A-960A458118D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91F66DE6-F8E8-4A39-902A-960A458118D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BCCF66A-22FD-499B-82B8-F51DB195FEE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BCCF66A-22FD-499B-82B8-F51DB195FEE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BCCF66A-22FD-499B-82B8-F51DB195FEE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BCCF66A-22FD-499B-82B8-F51DB195FEE1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5B028234-8B9A-4B1D-8D22-86FAD2BABF57}
+	EndGlobalSection
+EndGlobal
